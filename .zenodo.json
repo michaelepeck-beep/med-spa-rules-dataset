@@ -1,0 +1,26 @@
+{
+  "title": "Med Spa Regulations — an open citation dataset",
+  "upload_type": "dataset",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    { "name": "Peck, Michael", "affiliation": "MedSpaRadar" }
+  ],
+  "description": "<p>One row per US state and med-spa regulatory question — 1,094 rows across 51 jurisdictions (50 states and the District of Columbia) and 27 questions. Every row names the statute or board rule the answer was read from, the URL it was read at, and the date of that read, across 99 distinct primary-source publishers.</p><p><strong>This dataset records which document was consulted. It does not state what any rule permits.</strong> There is no answer, verdict, permitted or status column, and there will not be one: a yes/no is a paraphrase of a rule.</p><p>Three limits, each measured rather than asserted. (1) A cited rule does not always settle the question it is filed under — measured across 1,044 of these 1,094 rows by a classifier run independently of the drafter, 281 settle the question outright and 763 bear on it without resolving it. The dominant cause is sourcing depth, not unclear law. (2) A state missing a question means no citation is held for it, never that the answer there is no. (3) The 'attested' column means the cited document was re-read and judged to support the sentence — a provenance check, not a legal opinion.</p><p>Not legal advice. The living version, with the rule text rendered beside each citation, is at https://medsparadar.com/data</p>",
+  "keywords": [
+    "med spa regulation",
+    "medical spa law",
+    "scope of practice",
+    "corporate practice of medicine",
+    "state licensing",
+    "aesthetic medicine",
+    "health law",
+    "open data"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://medsparadar.com/data", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://medsparadar.com", "relation": "isDerivedFrom", "scheme": "url" }
+  ],
+  "notes": "Legislative data included in this dataset derives in part from LegiScan and is itself licensed CC BY 4.0. The attribution \"Legislative data via LegiScan (CC BY 4.0)\" must travel with any redistribution. Required attribution for this dataset: \"Med spa regulatory citations by MedSpaRadar (medsparadar.com), CC BY 4.0\"."
+}
