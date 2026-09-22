@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Med Spa Regulations — an open citation dataset"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - name: "MedSpaRadar"
+    website: "https://medsparadar.com"
+license: CC-BY-4.0
+url: "https://medsparadar.com/data"
+repository-code: "https://github.com/michaelepeck-beep/med-spa-rules-dataset"
+keywords:
+  - med spa regulation
+  - medical spa law
+  - scope of practice
+  - corporate practice of medicine
+  - state licensing
+  - aesthetic medicine
+abstract: >-
+  One row per US state and med-spa regulatory question (1,094 rows, 51 jurisdictions,
+  27 questions), naming the statute or board rule the answer was read from, the URL it
+  was read at, and the date of that read. The dataset records which document was
+  consulted; it does not state what the rule permits.
